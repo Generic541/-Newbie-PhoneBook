@@ -2,9 +2,9 @@ package kr.dothome.generic7.project.PhoneBookData;
 
 public abstract class PhoneBookPersonData
 {
-	private int age;						// a person's age
-	private String name;					// a person's name
-	private int phoneNum;					// a person's phone number
+	private int age;				// a person's age
+	private String name;				// a person's name
+	private int phoneNum;				// a person's phone number
 	private boolean genderidentifier;		// 'true' means "male", 'false' means "female"
 	
 	public PhoneBookPersonData(int age, String name, int phoneNum)
